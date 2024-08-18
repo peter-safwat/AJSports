@@ -1,0 +1,185 @@
+.user-info {
+  background: #0d1317;
+  box-shadow: 0px 2.564472px 25.64472px rgba(0, 0, 0, 0.08);
+  border-radius: 1.12rem;
+  width: 19.384rem;
+  padding: 1.8rem 3.12rem 1.6rem 3.2rem;
+}
+
+.user-info-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0.6rem;
+  gap: 1.5rem;
+}
+
+.username-color {
+  width: 1.04rem;
+  height: 1.04rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.username-unavailable {
+  color: #f54336;
+  margin-top: 0.3rem;
+  font-family: "Roboto";
+  font-size: 0.488rem;
+  font-weight: 400;
+  margin-left: 0.08rem;
+}
+
+.selected-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-button {
+  padding: 0.368rem 0.744rem;
+  width: 2.848rem;
+  height: 1.12rem;
+  background: #eaf2fc;
+  border-radius: 0.144rem;
+  font-family: RobotoSemiBold;
+  font-weight: 600;
+  font-size: 0.52rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #364e5c;
+  cursor: pointer;
+  transition: all 0.16s ease-in-out;
+}
+
+.change-button:hover {
+  background: rgba(234, 242, 252, 0.5);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.user-info-para {
+  font-family: RobotoSemiBold;
+  font-weight: 600;
+  font-size: 0.824rem;
+  line-height: 0.976rem;
+  color: #ffffff;
+  margin-top: 1.424rem;
+  letter-spacing: 0.16px;
+  margin-bottom: 0.448rem;
+}
+
+.user-info-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.008rem;
+  margin-top: 1.056rem;
+}
+.confirm-button {
+  width: 3.36rem;
+  height: 1.464rem;
+  background: #01bcf1;
+  color: white;
+  border-radius: 0.144rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: RobotoRegular;
+  font-weight: 500;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background: rgba(1, 189, 241, 0.5);
+}
+
+.cancel-button {
+  cursor: pointer;
+  font-family: RobotoRegular;
+  font-weight: 500;
+  font-size: 0.52rem;
+  line-height: 0.6rem;
+  color: #acacac;
+  background-color: inherit;
+}
+
+.cancel-button:hover {
+  color: #666464;
+}
+@media (max-width: 56.25rem) {
+  .user-info {
+    max-width: min(90%, 24rem);
+    border-radius: 1.5rem;
+    /* padding: 2.43rem 16.3vw 1.68rem; */
+  }
+  .user-info-top {
+    gap: 1.25rem;
+    padding-right: 11px;
+  }
+  .selected-avatar {
+    width: 5.5625rem;
+    height: auto;
+  }
+  .selected-avatar img {
+    width: 89px;
+    height: 89px;
+  }
+  .change-button {
+    font-size: 0.53rem;
+    color: #364e5c;
+    border-radius: 0.25rem;
+  }
+  .user-info-para {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.625rem;
+    letter-spacing: 0.5px;
+  }
+
+  .user-data {
+    position: relative;
+  }
+  .user-data-input {
+    padding: 0.4rem 1rem;
+    border-radius: 0.25rem;
+    height: 2.07rem;
+    font-size: 0.625rem;
+    line-height: 1.25rem;
+  }
+  .not-valid-icon {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.85rem;
+  }
+  .taken-message {
+    font-weight: 400;
+    font-size: 0.56rem;
+    line-height: 0.65rem;
+    color: #f54336;
+    margin-top: 0.25rem;
+  }
+  .user-info-actions {
+    gap: 1.375rem;
+    margin-top: 1.42rem;
+  }
+  .confirm-button {
+    width: 3.375rem;
+    height: 1.625rem;
+    border-radius: 0.25rem;
+    font-size: 0.5rem;
+    line-height: 0.55rem;
+  }
+  .cancel-button {
+    font-size: 0.45rem;
+    line-height: 0.5rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .user-info-top {
+    gap: 0.5rem;
+  }
+}

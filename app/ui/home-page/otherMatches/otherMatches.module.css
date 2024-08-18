@@ -1,0 +1,27 @@
+.matches {
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.64rem;
+}
+
+@media (max-width: 56.25rem) {
+  .matches {
+    margin-top: 0;
+  }
+  .show-more-button {
+    margin-top: 13px;
+  }
+}

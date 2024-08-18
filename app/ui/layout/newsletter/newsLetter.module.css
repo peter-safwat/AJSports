@@ -1,0 +1,229 @@
+.news-letter {
+  background: #182228;
+  box-shadow: 0px 16px 40px rgba(18, 17, 39, 0.08);
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4.584rem;
+  padding: 2.6544rem 1.6rem 1.928rem;
+  max-width: max-content;
+  margin: auto;
+}
+.news-letter-first {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 26.544rem;
+  gap: 0.25rem;
+}
+.title {
+  font-size: 1.36rem;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.6rem;
+  margin-bottom: 4px;
+}
+.para {
+  font-weight: 300;
+  font-size: 0.72rem;
+  line-height: 1.08rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 0.8rem;
+}
+.news-letter-second {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.44rem;
+  flex-direction: column;
+}
+.notify {
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
+}
+.notify-input {
+  padding: 0.624rem 0.72rem;
+  font-weight: 400;
+  font-size: 0.584rem;
+  line-height: 1.12rem;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  width: 10.8rem;
+  height: 2.34rem;
+}
+.notify-button {
+  background-color: #01bcf1;
+  border-radius: 0.4rem;
+  padding: 0.48rem 1rem;
+  font-weight: 400;
+  font-size: 0.76rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+  height: 2.34rem;
+}
+.news-letter-second-para,
+.news-letter-second-para span {
+  font-weight: 300;
+  font-size: 0.54rem;
+  line-height: 0.984rem;
+  color: rgba(255, 255, 255, 0.48);
+  font-family: "Poppins", sans-serif;
+  width: max-content;
+}
+.news-letter-second-para > a {
+  color: #01bcf1;
+  cursor: pointer;
+}
+@media (max-width: 1500px) {
+  .container {
+    gap: 4.56rem;
+    padding: 2.32rem 1.6rem 2.208rem;
+  }
+
+  .news-letter-first {
+    max-width: 27.2rem;
+    gap: 0.6rem;
+  }
+
+  .title {
+    font-size: 1.336rem;
+    line-height: 1.872rem;
+  }
+
+  .para {
+    font-size: 0.936rem;
+    line-height: 1.312rem;
+  }
+
+  .news-letter-second {
+    gap: 0.52rem;
+  }
+
+  .notify {
+    gap: 0.72rem;
+  }
+
+  .notify-input {
+    padding: 0.624rem 0.72rem;
+    font-weight: 400;
+    font-size: 0.584rem;
+    width: 12rem;
+  }
+
+  .notify-button {
+    border-radius: 0.4rem;
+    padding: 0.576rem 1.48rem;
+    font-size: 0.76rem;
+  }
+
+  .news-letter-second-para {
+    font-size: 0.54rem;
+    line-height: 0.984rem;
+  }
+}
+@media (max-width: 83rem) {
+  .container {
+    gap: 2.4rem;
+    padding: 2.048rem 1.36rem 1.872rem;
+    max-width: 40.8rem;
+  }
+  .news-letter-first {
+    max-width: 18.7rem;
+  }
+  .title {
+    font-size: 0.96rem;
+    line-height: 1.2rem;
+  }
+  .para {
+    font-size: 0.68rem;
+    line-height: 1.04rem;
+  }
+  .notify-input {
+    padding: 0.504rem;
+    font-size: 0.544rem;
+    width: 9.6rem;
+  }
+  .notify-button {
+    border-radius: 0.34rem;
+    height: 1.92rem;
+    width: 6rem;
+    font-size: 0.64rem;
+  }
+  .news-letter-second-para {
+    font-size: 0.54rem;
+    line-height: 0.984rem;
+  }
+}
+
+@media (max-width: 56.25rem) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2.4rem 1.8rem 2rem;
+    max-width: auto;
+  }
+  .news-letter-first {
+    max-width: 100%;
+    gap: 0.2rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.415rem;
+    line-height: 1.75rem;
+    align-self: center;
+  }
+  .para {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    max-width: 90%;
+    margin: auto;
+  }
+  .news-letter-second {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  .notify {
+    gap: 0;
+    justify-content: center;
+  }
+  .notify-input {
+    height: 43px;
+    padding: 0.4rem 1rem;
+    font-size: 0.68rem;
+    width: 12.5rem;
+  }
+  .notify-button {
+    margin-left: -13px;
+    border-radius: 0.5rem;
+    padding: 0;
+    font-size: 0.825rem;
+    height: 43px;
+    width: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-letter-second-para {
+    padding-left: 0;
+    font-size: 0.6rem;
+    line-height: 0.85rem;
+    text-align: center;
+    width: 14.125rem;
+  }
+  .news-letter-second-para > a {
+    color: #01bcf1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,27 @@
+.search-div {
+  position: relative;
+}
+.search {
+  padding-left: 1.648rem;
+  padding-right: 0.56rem;
+  width: 6.224rem;
+  height: 1.28rem;
+  color: rgba(216, 216, 216, 0.4);
+  font-family: "Poppins";
+  font-size: 0.488rem;
+  line-height: 0.8rem;
+  border-radius: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.search-icon {
+  position: absolute;
+  top: 0.36rem;
+  left: 0.48rem;
+  font-size: 0.672rem;
+  color: rgba(200, 200, 200, 0.6);
+}
+@media (max-width: 56.25rem) {
+  .search-div {
+    display: none;
+  }
+}

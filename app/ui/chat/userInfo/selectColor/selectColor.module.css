@@ -1,0 +1,97 @@
+.container {
+  width: 20.8rem;
+  height: 27rem;
+  border-radius: 0.56rem;
+  background: #0d1317;
+  padding: 1.2rem 2.4rem 1.312rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.24rem;
+}
+
+.username-text {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 0.824rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.colors-selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.24rem;
+  cursor: pointer;
+  margin-top: 0.64rem;
+}
+
+.color-selector {
+  display: inline-block;
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 50%;
+}
+
+.user-info-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.008rem;
+  margin-top: 1.2rem;
+}
+
+.confirm-button {
+  width: 3.36rem;
+  height: 1.464rem;
+  background: #01bcf1;
+  color: white;
+  border-radius: 0.144rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: RobotoRegular;
+  font-weight: 500;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background: rgba(1, 189, 241, 0.5);
+}
+
+.cancel-button {
+  cursor: pointer;
+  font-family: RobotoRegular;
+  font-weight: 500;
+  font-size: 0.52rem;
+  line-height: 0.6rem;
+  color: #acacac;
+  background-color: inherit;
+}
+
+.cancel-button:hover {
+  color: #666464;
+}
+@media (max-width: 56.25rem) {
+  .container {
+    height: 33rem;
+  }
+  .user-info-actions {
+    gap: 1.375rem;
+    margin-top: 1.42rem;
+  }
+  .confirm-button {
+    width: 3.375rem;
+    height: 1.625rem;
+    border-radius: 0.25rem;
+    font-size: 0.5rem;
+    line-height: 0.55rem;
+  }
+  .cancel-button {
+    font-size: 0.45rem;
+    line-height: 0.5rem;
+  }
+}

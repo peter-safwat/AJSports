@@ -1,0 +1,34 @@
+.container {
+  border-radius: 0.856rem;
+  background: #0d1317;
+  width: 100%;
+  padding: 0.376rem 0.376rem 1.2rem;
+}
+
+.title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.devider {
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 96%;
+  background-color: #797979;
+}
+@media (max-width: 28.125rem) {
+  .container {
+    border-radius: 0.65rem;
+    padding: 0.8rem 0.5rem 1.17rem 0;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}

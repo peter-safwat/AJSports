@@ -1,0 +1,98 @@
+.selected {
+  min-width: 6.56rem;
+  border-radius: 0.224rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  width: 100%;
+  height: 1.688rem;
+  border-radius: 0.224rem;
+  background: #1e2124;
+}
+.selected-sport {
+  color: rgba(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 0.48rem;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.options::-webkit-scrollbar {
+  width: 2px;
+}
+.options::-webkit-scrollbar-track {
+  background: inherit;
+}
+.options::-webkit-scrollbar-thumb {
+  background: rgba(127, 126, 126, 0.6);
+  border-radius: 6.4px;
+}
+.options::-webkit-scrollbar-thumb:hover {
+  background: #464646;
+}
+.options-container {
+  width: 9.784rem;
+  height: 13.63rem;
+  border-radius: 0.24rem;
+  background: #232b30;
+  position: relative;
+}
+.options {
+  width: 100%;
+  padding: 17px 0.632rem;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.24rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.selected-option,
+.option {
+  display: flex;
+  width: 8.512rem;
+  min-height: 1.464rem;
+  border-radius: 2.4px;
+  background: inherit;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 0.52rem;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.selected-option {
+  background: #161f25;
+}
+.option:hover {
+  background: #10adff;
+}
+@media (max-width: 56.25rem) {
+  .options-container {
+    width: 17.5rem;
+    height: 15.06rem;
+    border-radius: 0.75rem;
+  }
+  .options {
+    width: 100%;
+    padding: 27px 0.79rem;
+    max-height: 100%;
+    gap: 0.34rem;
+  }
+  .selected-option,
+  .option {
+    width: 100%;
+    min-height: 2.5rem;
+    border-radius: 3px;
+    font-size: 0.875rem;
+  }
+}

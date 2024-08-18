@@ -1,0 +1,16 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+.devider {
+  display: block;
+  margin: auto;
+  width: 2.58rem;
+  height: 1.45rem;
+  background-color: #03a1cd;
+}
+@media (max-width: 56.25rem) {
+  .container {
+    width: 94%;
+  }
+}

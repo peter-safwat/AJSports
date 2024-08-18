@@ -1,0 +1,118 @@
+.emojies-gifs {
+  position: absolute;
+  bottom: 2.72rem;
+  right: 0.2rem;
+  height: 18.8rem;
+  width: calc(100% - 0.4rem);
+  overflow-y: hidden;
+  z-index: 10;
+  border-radius: 0.24rem;
+  background: #1d242b;
+}
+.blue-header {
+  display: flex;
+  width: 100%;
+  height: 0.6rem;
+  background: #03a1cd;
+  box-shadow: 0px 3.2px 3.2px 0px rgba(0, 0, 0, 0.25);
+}
+.exit-emojy {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.28rem;
+  cursor: pointer;
+}
+.space-2 {
+  display: flex;
+  width: 100%;
+  height: 4px;
+}
+.space {
+  width: 100%;
+  height: 1.048rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: inherit;
+}
+.emojy-picker {
+  display: flex;
+  justify-content: center;
+}
+.emojie-and-gifs-wrapper {
+  padding: 0 1.3496rem;
+}
+#emojies-gifs.emojies-gifs * {
+  background: inherit;
+}
+#chat-bottom.chat-bottom
+  #emojy-dev.emojy-dev
+  #emojies-gifs.emojies-gifs
+  .flex-column {
+  background: inherit !important;
+}
+.emojies-gifs-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.56rem auto 0.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 0.8px solid rgba(92, 92, 92, 1);
+}
+.option,
+.option-selected {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 0.72rem;
+  line-height: 0.8rem;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.784rem;
+  border-radius: 0.368rem;
+  cursor: pointer;
+}
+.option-selected {
+  background: #141a20;
+}
+@media (max-width: 56.25rem) {
+  .emojies-gifs {
+    bottom: 3.5rem;
+    left: 50%;
+    margin: auto;
+    height: 21.94rem;
+    width: 97%;
+    transform: translate(-50%, 0);
+    border-radius: 0.3rem;
+  }
+  .blue-header {
+    height: 0.5rem;
+  }
+
+  .exit-emojy {
+    position: absolute;
+    top: 30px;
+    right: 1.07rem;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+  .emojie-and-gifs-wrapper {
+    padding: 0 0.75rem;
+  }
+
+  .emojies-gifs-top {
+    gap: 0.4rem;
+    margin: 0.8rem auto 0;
+  }
+  .option,
+  .option-selected {
+    font-size: 0.82rem;
+    height: 1.875rem;
+    padding: 0 0.99rem;
+    border-radius: 0.42rem;
+  }
+}

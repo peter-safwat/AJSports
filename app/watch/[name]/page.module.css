@@ -1,0 +1,92 @@
+.page {
+  /* background-image: linear-gradient(
+      to right bottom,
+      rgb(18, 25, 29),
+      rgba(21, 26, 31, 0.938)
+    ),
+    url("../../../public/wallpaper/boxing.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overscroll-behavior: none;
+}
+.watch-video-wrapper {
+  margin: 2.3rem auto 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* min-height: 40.6rem; */
+  max-width: min(58.4vw, 50.64vw);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2.22rem;
+  width: 100%;
+}
+.mobile-social {
+  display: none;
+}
+.takticks {
+  margin-top: 1.36rem;
+  margin-bottom: 4.424rem;
+}
+
+.casino {
+  margin-bottom: 2.656rem;
+}
+@media (max-width: 75rem) {
+  .watch-video-wrapper {
+    max-width: 51rem;
+  }
+}
+
+@media (max-width: 56.25rem) {
+  .social-links-desktop {
+    display: none;
+  }
+
+
+  .page {
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    max-width: min(38rem, 98%);
+  }
+  .watch-video-wrapper {
+    margin: 0;
+    min-height: auto;
+    border-radius: 11px;
+    /* background: #27333c; */
+  }
+
+  .bottom {
+    margin-top: 1.65rem;
+  }
+  .mobile-social {
+    display: inline-block;
+  }
+
+  .vpn {
+    margin-bottom: 1.7rem;
+  }
+  .takticks {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .casino {
+    margin-bottom: 1.75rem;
+  }
+  .who-will-win {
+    width: min(95.5%, 27rem);
+  }
+}
+@media (max-width: 600px) {
+  .page {
+    max-width: 100%;
+    margin: 0 3px;
+    padding-bottom: 3rem;
+  }
+}

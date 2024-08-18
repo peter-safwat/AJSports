@@ -1,0 +1,179 @@
+.chat-body {
+  flex-grow: 1;
+  width: 100%;
+  padding: 1.424rem 0 1.008rem;
+  max-height: 337.6px;
+  min-height: 280px;
+}
+.messages::-webkit-scrollbar {
+  width: 3.6px;
+}
+
+.messages {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.16rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.message {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.784rem;
+  width: 100%;
+  padding: 0.224rem 1.5rem 0.224rem 1.12rem;
+  /* transition: all 0.24s ease-in-out; */
+  cursor: pointer;
+}
+.message:hover {
+  background: #1c2730;
+}
+.user-image {
+  display: flex;
+  flex-direction: column;
+  gap: 0.144rem;
+  align-items: center;
+}
+.you-text {
+  color: #03a1cd;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 0.52rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.message-data {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.username {
+  color: #bf43aa;
+  font-family: "Roboto";
+  font-size: 0.64rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 4.8px;
+}
+.mentioned {
+  display: inline-block;
+}
+.mentioned * {
+  color: #e4e900;
+  font-family: "Poppins";
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 2.4px;
+}
+
+.replay-wrapper {
+  display: none;
+}
+.message:hover .replay-wrapper {
+  display: flex;
+  position: absolute;
+  top: -0.6rem;
+  right: 1.32rem;
+  cursor: pointer;
+}
+.replay-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.344rem;
+  height: 1.344rem;
+  background-color: #0f151b;
+  border-radius: 0.192rem;
+}
+
+.tooltip {
+  display: none;
+}
+
+.replay-icon-div:hover ~ .tooltip {
+  display: inline;
+  position: absolute;
+  top: -1.44rem;
+  left: -1.44rem;
+  z-index: 10;
+  color: #fff;
+  font-family: RobotoBold;
+  font-size: 0.504rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  letter-spacing: 0.4px;
+  width: 4.16rem;
+  height: 1.12rem;
+  border-radius: 0.224rem;
+  background: #2b3134;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6.4px;
+  border-width: 6.4px;
+  border-style: solid;
+  border-color: #2b3134 transparent transparent transparent;
+}
+@media (max-width: 56.25rem) {
+  .chat-body {
+    padding: 1.6rem 0 0.8rem;
+  }
+  .messages {
+    gap: 0.69rem;
+  }
+
+  .message {
+    gap: 0.875rem;
+    padding: 0.3rem 1.6rem 0.5rem 1.3rem;
+  }
+  .you-text {
+    font-size: 0.625rem;
+  }
+  .message-data {
+    font-size: 0.875rem;
+  }
+  .username {
+    font-size: 0.875rem;
+    margin-right: 2px;
+  }
+  .mentioned {
+    font-size: 0.875rem;
+    margin-right: 2px;
+  }
+  .message:hover .replay-wrapper {
+    top: -21%;
+  }
+  .replay-icon-div {
+    border-radius: 0.24rem;
+  }
+
+  .tooltip {
+    display: none;
+  }
+  .replay-wrapper:hover > .tooltip {
+    font-size: 0.75rem;
+    width: 6.25rem;
+    height: 2rem;
+    border-radius: 0.28rem;
+  }
+}

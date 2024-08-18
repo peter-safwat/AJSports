@@ -1,0 +1,139 @@
+.change-avatar-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.144rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: RobotoSemiBold;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.12rem;
+  color: #ffffff;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 0.64rem;
+  line-height: 0.744rem;
+  color: #7e94a6;
+}
+
+.file-pload-wrapper {
+  margin-top: 0.672rem;
+  margin-bottom: 0.56rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.936rem 3.744rem;
+  height: 3.784rem;
+  width: 100%;
+  background: #182228;
+  border: 1px dashed #d6e2f9;
+  border-radius: 0.3rem;
+  flex-direction: column;
+}
+
+.upload-icon {
+  cursor: pointer;
+}
+
+.file-upload-para {
+  font-weight: 400;
+  font-size: 0.52rem;
+  line-height: 0.744rem;
+  color: #ffffff;
+}
+
+.file-upload-para > span {
+  cursor: pointer;
+  color: #01bcf1;
+  margin-left: 0.16rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.apply-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.368rem 0.6rem;
+  width: 2.72rem;
+  height: 1.456rem;
+  background: #01bcf1;
+  border-radius: 0.144rem;
+  color: white;
+  font-family: RobotoSemiBold;
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 0.712rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cancel-button {
+  font-family: RobotoRegular;
+  font-weight: 500;
+  font-size: 0.52rem;
+  line-height: 0.6rem;
+  color: #b5b5b5;
+  background: inherit;
+  cursor: pointer;
+}
+@media (max-width: 56.25rem) {
+  .change-avatar-text {
+    gap: 0.1rem;
+  }
+
+  .title {
+    font-size: 0.95rem;
+    line-height: 1rem;
+  }
+  .para {
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+  }
+  .file-pload-wrapper {
+    margin-top: 0.15rem;
+    margin-bottom: 0.67rem;
+    gap: 0.5rem;
+    padding: 0.72rem 2rem;
+    gap: 0.56rem;
+    height: 3.75rem;
+    border-radius: 0.5rem;
+  }
+  .file-upload-para {
+    font-size: 0.65rem;
+    line-height: 0.6rem;
+  }
+  .upload-icon {
+    width: 17px;
+    height: 19.42px;
+  }
+  .actions {
+    gap: 0.687rem;
+    margin-top: 1.3rem;
+  }
+  .apply-button {
+    padding: 0.46rem 0.75rem;
+    width: 3.3125rem;
+    height: 1.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.56rem;
+    line-height: 0.65rem;
+  }
+  .cancel-button {
+    font-family: RobotoRegular;
+    font-weight: 500;
+    font-size: 0.52rem;
+    line-height: 0.6rem;
+  }
+}

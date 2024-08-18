@@ -1,0 +1,22 @@
+.telegram-link {
+  width: 54px;
+  height: 54px;
+  position: fixed;
+  top: 35vh;
+  right: 5vw;
+  cursor: pointer;
+  z-index: 8;
+}
+@media (max-width: 56.25rem) {
+  .telegram-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .telegram-link {
+    width: 3rem;
+    height: 3rem;
+    bottom: 72vh;
+    top: auto;
+    right: 4%;
+  }
+}

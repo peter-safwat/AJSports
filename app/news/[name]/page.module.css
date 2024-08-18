@@ -1,0 +1,25 @@
+.page {
+  max-width: min(68%, 36rem);
+  margin: 0 auto;
+  padding-bottom: 5.6rem;
+}
+.seperator {
+  display: block;
+  width: 72%;
+  height: 1px;
+  background: #616161; 
+  margin: 2.1rem auto; 
+}
+@media (max-width: 56.25rem) {
+  .page {
+    max-width: min(90%, 36rem);
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .page {
+    max-width: 100%;
+    margin: 0 3px;
+  }
+}

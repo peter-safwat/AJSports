@@ -1,0 +1,23 @@
+.uesr-feedback-button {
+  font-size: 0.9rem;
+  line-height: 1.248rem;
+  font-family: "Roboto";
+  color: white;
+  background-color: #03a1cd;
+  border-radius: 1.384rem;
+  width: 7.2rem;
+  height: 2.144rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+@media (max-width: 56.25rem) {
+  .uesr-feedback-button {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    border-radius: 1.4rem;
+    width: 7.2rem;
+    height: 2rem;
+  }
+}

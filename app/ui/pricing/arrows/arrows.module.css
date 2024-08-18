@@ -1,0 +1,30 @@
+.prev-wrapper,
+.next-wrapper {
+  width: 1.32rem !important; 
+  height: 1.32rem !important; 
+  border-radius: 50%;
+  background-color: rgba(35, 43, 47, 1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  color: #dbdbdb;
+  cursor: pointer;
+  font-size: 0.8rem; 
+}
+.prev-wrapper {
+  left: -1.6rem; 
+}
+.next-wrapper {
+  right: -1.6rem; 
+}
+/* @media (max-width: 56.25rem) {
+  .prev-wrapper,
+  .next-wrapper {
+    display: none;
+  }
+} */
